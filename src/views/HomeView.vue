@@ -62,10 +62,10 @@ const toggleTheme = () => {
       :style="{ left: `${cursorPosition.x}px`, top: `${cursorPosition.y}px` }"
     ></div>
     <section
-      class="relative z-10 grid w-full max-w-7xl grid-cols-[0.85fr_1.15fr] p-6 pt-15 gap-30 text-center max-[1150px]:grid-cols-1 max-[1150px]:gap-y-16"
+      class="relative z-10 grid w-full max-w-7xl grid-cols-[0.85fr_1.15fr] p-6 m-10 pt-15 gap-30 text-center max-[1150px]:grid-cols-1 max-[1150px]:gap-y-16"
     >
       <div
-        class="home-sidebar sticky top-15 flex  self-start flex-col gap-2 justify-between max-[1150px]:static min-[1150px]:min-h-[calc(100vh-10rem)]"
+        class="home-sidebar sticky top-25 flex self-start flex-col justify-between max-[1150px]:static min-[1150px]:min-h-[calc(100vh-15rem)] min-[1150px]:max-h-[38rem] max-[1150px]:gap-8"
       >
         <Info>
           <template #theme-toggle>
@@ -78,7 +78,7 @@ const toggleTheme = () => {
             ></button>
           </template>
         </Info>
-        <Links class="mt-5" />
+        <Links />
       </div>
       <div class="home-content scale-100 flex flex-col gap-20 pr-4 text-left">
         <About />
