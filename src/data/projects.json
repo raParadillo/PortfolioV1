@@ -1,0 +1,10 @@
+[
+  {
+    "title": "Portfolio Website v1.0",
+    "year": "2026",
+    "url": "",
+    "description": "A personal portfolio website showcasing my projects as a full stack developer.",
+    "image": "/ProjectIMG/PortfolioV1.webp",
+    "stacks": ["Vue.js", "Tailwind CSS", "Vercel","HTML", "CSS", "javascript"]
+  }
+]
