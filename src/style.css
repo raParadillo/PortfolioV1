@@ -189,6 +189,14 @@ html {
 	animation-delay: 1000ms;
 }
 
+.home-content > *:nth-child(7) {
+	animation-delay: 1150ms;
+}
+
+.home-content > *:nth-child(8) {
+	animation-delay: 1300ms;
+}
+
 @media (prefers-reduced-motion: reduce) {
 	.home-sidebar > *,
 	.home-content > * {

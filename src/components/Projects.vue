@@ -7,7 +7,7 @@
       class="mt-4 grid grid-cols-1 gap-4 text-base text-zinc-600 min-[1051px]:grid-cols-2"
     >
       <RouterLink
-        v-for="project in sortedProjects.slice(0, 4)"
+        v-for="project in sortedProjects.slice(0, 2)"
         :key="project.title"
         :to="`/projects/${projects.indexOf(project)}`"
         class="flex min-h-40 min-w-0 flex-col gap-2 rounded-lg border border-zinc-200 p-4 transition-all duration-300 hover:-translate-y-2 hover:shadow-lg"

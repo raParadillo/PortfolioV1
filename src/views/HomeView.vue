@@ -9,6 +9,7 @@ import Footer from "../components/Footer.vue";
 import Experience from "../components/Exp.vue";
 import Beyond from "../components/Beyond.vue";
 import HireMe from "../components/HireMe.vue";
+import Certs from "../components/Certs.vue";                              
 
 const cursorPosition = ref({ x: -200, y: -200 });
 const windowScrollY = ref(0);
@@ -83,6 +84,7 @@ const toggleTheme = () => {
       <div class="home-content scale-100 flex flex-col gap-20 pr-4 text-left">
         <About />
         <Projects />
+        <Certs />
         <Experience />
         <Education />
         <Beyond />

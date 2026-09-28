@@ -30,11 +30,11 @@ import { useRouter } from "vue-router";
 const navLinks = [
   { label: "About", href: "#about" },
   { label: "Projects", href: "#projects" },
+  { label: "Certifications", href: "#certifications" },
   { label: "Experience", href: "#experience" },
   { label: "Education", href: "#education" },
   { label: "Beyond Code", href: "#beyond-code" },
   { label: "Hire Me", href: "#hire-me" },
-  
 ];
 
 const activeSection = ref("");
